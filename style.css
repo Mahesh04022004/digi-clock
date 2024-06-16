@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+
+
+.hr{
+    background-color: #2A95EA;
+    width: 10vw;
+    height: 24vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 100;
+
+}
+.min{
+    background-color: #2A95EA;
+    width: 10vw;
+    height: 24vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 100;
+}
+.sec{
+    background-color: #F20166;
+    width: 10vw;
+    height: 24vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 100;
+}
+
+
+.main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    
+}
+.digiclock{
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    gap: 1rem;
+}
+.main h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.hr h6{
+    font-size: 6rem;
+}
+.hr div{
+    font-size: 1rem;
+    width: 100%;
+    background-color: #2080CE;
+    text-align: center;
+}
+
+.min h6{
+    font-size: 6rem;
+}
+.min div{
+    font-size: 1rem;
+    width: 100%;
+    background-color: #2080CE;
+    text-align: center;
+}
+
+.sec h6{
+    font-size: 6rem;
+}
+.sec div{
+    font-size: 1rem;
+    width: 100%;
+    background-color: #E3025F;
+    text-align: center;
+}
+.ms{
+    background-color: #2A95EA;
+    width: 5vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 100;
+}
+.ms h6{
+    font-size: 3rem;
+    font-weight: 100;
+}
